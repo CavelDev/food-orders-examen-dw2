@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:FILL@1&display=swap" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+	
+	<div id="app">
+		
+		<section class="panel panel-left panel-cover">
+			
+			<div class="block">
+				<div class="card">
+					<div class="card-content">
+					  <div class="list media-list">
+						<ul>
+						  <li class="item-content">
+							<div class="item-media"><img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"/></div>
+							<div class="item-inner">
+							  <div class="item-title-row">
+								<div class="item-title">Braxton Stark</div>
+							  </div>
+							  <div class="item-subtitle">braxton.starkgmail.com</div>
+							</div>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				</div>
+			</div>
+			  
+
+			<div class="block">
+				<div class="card">
+				  <div class="card-content">
+					<div class="list">
+					  <ul>
+						<li>
+						  <a href="/home/" class="item-link item-content">
+							<div class="item-media">
+							  <span class="material-symbols-rounded icon-background">home</span>
+							</div>
+							<div class="item-inner">
+							  <div class="item-title">Home</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="/categories/" class="item-link item-content">
+							<div class="item-media">
+							  <span class="material-symbols-rounded icon-background">list</span>
+							</div>
+							<div class="item-inner">
+							  <div class="item-title">Categories</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="#" class="item-link item-content">
+							<div class="item-media">
+							  <span class="material-symbols-rounded icon-background">favorite</span>
+							</div>
+							<div class="item-inner">
+							  <div class="item-title">Favorites</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="#" class="item-link item-content">
+							<div class="item-media">
+							  <span class="material-symbols-rounded icon-background">shopping_bag</span>
+							</div>
+							<div class="item-inner">
+							  <div class="item-title">My orders</div>
+							</div>
+						  </a>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="block left">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-symbols-rounded">menu</i>
+						</a>
+					</div>
+					<div class="title"><b>Food Order</b></div>
+					<div class="block right">
+						<span class="material-symbols-rounded">account_circle</span>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+
+				<div class="block">
+					<div class="row">
+					  <div class="col-50">
+						<h2>Popular Item</h2>
+					  </div>
+					  <div class="col-50 text-align-right">
+						<a href="#">See all</a>
+					  </div>
+					</div>
+				  </div>
+				  
+				  
+				<div class="block">
+					<div class="row">
+					  <!-- Card 1 -->
+					  <div class="col-50">
+						<div class="card">
+						  <div class="card-content card-content-padding text-align-center">
+							<img src="/img/burger-1.png" alt="Beef Burger" class="img-product">
+							<div class="text-align-center margin-top">
+							  <b>Beef Burger</b><br>
+							  <span class="text-color-gray">Cheesy Mozzarella</span>
+							</div>
+						  </div>
+						  <div class="card-footer justify-content-space-between align-items-center">
+							<div><b>$7.90</b></div>
+							<a href="#" class="button button-small button-fill">
+							  <i class="icon material-symbols-rounded">add</i>
+							</a>
+						  </div>
+						</div>
+					  </div>
+				  
+					  <!-- Card 2 -->
+					  <div class="col-50">
+						<div class="card">
+						  <div class="card-content card-content-padding text-align-center">
+							<img src="/img/bigmac.png" alt="Big Mac" class="img-product">
+							<div class="text-align-center margin-top">
+							  <b>Big Mac</b><br>
+							  <span class="text-color-gray">Cheesy Mozzarella</span>
+							</div>
+						  </div>
+						  <div class="card-footer justify-content-space-between align-items-center">
+							<div><b>$7.90</b></div>
+							<a href="#" class="button button-small button-fill">
+							  <i class="icon material-symbols-rounded">add</i>
+							</a>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+
+				<div class="swiper-container swiper-init demo-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="/img/banner-large.png" width="100%"></div>
+						<div class="swiper-slide"><img src="/img/banner-large-2.png" width="100%"></div>
+					</div>
+				</div>
+
+				<div class="block">
+					<div class="row">
+					  <div class="col-50">
+						<h2>Recommend Item</h2>
+					  </div>
+					  <div class="col-50 text-align-right">
+						<a href="#">See all</a>
+					  </div>
+					</div>
+				  </div>
+
+				<div class="block">
+
+					<!-- Swiper -->
+				  <div class="swiper-container swiper-init demo-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+
+							<!-- Slide 1 -->
+							<div class="card cat-card">
+								<div class="card-content card-content-padding">
+								  <div class="row align-items-center">
+
+									<div class="col-50">
+									  <img src="/img/pie.png" alt="Donuts" width="100%">
+									</div>
+							  
+									<div class="col-50 text-align-center">
+									  <div class="text-color-black cat-title">Apple Pie</div>
+									  <p class="margin-vertical-half">Dessert</p>
+									  <span><b>$4.70</b></span>
+							  
+									  <a href="#" class="button button-fill btn-plus">
+										<i class="icon material-symbols-rounded">add</i>
+									  </a>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							  
+						</div>
+
+						<div class="swiper-slide">
+							<!-- Slide 2 -->
+							<div class="card cat-card">
+								<div class="card-content card-content-padding">
+								  <div class="row align-items-center">
+									<div class="col-50">
+									  <img src="/img/bigmac.png" alt="Donuts" width="100%">
+									</div>
+							
+									<div class="col-50 text-align-center">
+									  <div class="text-color-black cat-title">Big Mac Bacon</div>
+									  <p>Hamburger</p>
+									  <span><b>$6.70</b></span>
+		
+									  <a href="#" class="button button-small button-fill btn-plus">
+										<i class="icon material-symbols-rounded">add</i>
+									  </a>	  
+									</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<!-- Slide 3 -->
+							<div class="card cat-card">
+								<div class="card-content card-content-padding">
+								  <div class="row align-items-center">
+									<div class="col-50">
+									  <img src="/img/pizza.png" alt="Donuts" width="100%">
+									</div>
+							
+									<div class="col-50 text-align-center">
+									  <div class="text-color-black cat-title">Pizza Peperoni</div>
+									  <p>Pizzas</p>
+									  <span><b>$6.99</b></span>
+		
+									  <a href="#" class="button button-small button-fill btn-plus">
+										<i class="icon material-symbols-rounded">add</i>
+									  </a>	  
+									</div>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>				  
+				    
+				    
+				  
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			
+			<div class="toolbar toolbar-bottom ">
+				<div class="toolbar-inner">
+				  <a href="/home/" class="link"><i class="material-symbols-rounded">home</i></a>
+				  <a href="/categories/" class="link"><i class="material-symbols-rounded">sell</i></a>
+				  <a href="/home/" class="link"><i class="material-symbols-rounded">shopping_basket</i></a>
+				  <a href="/home/" class="link"><i class="material-symbols-rounded">notifications</i></a>
+				  <a href="/home/" class="link"><i class="material-symbols-rounded">account_circle</i></a>
+				  
+				  
+				</div>
+			</div>
+			
+		</div><!--/view -->
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+</body>
+</html>
